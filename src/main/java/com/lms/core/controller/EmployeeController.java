@@ -50,6 +50,6 @@ public class EmployeeController {
 			@RequestParam(required = false) String name,
 			@RequestParam(required = false) String password, 
 			@RequestParam(required = false) Integer ManagerId ) {
-		employeeService.updateEmployee(employeeId, name, password);
+		employeeService.updateEmployee(employeeId, name, password );
 	}
 }
